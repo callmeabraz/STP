@@ -1,0 +1,94 @@
+@font-face {
+  font-family: HK Gothic, sans-serif;
+  src: url(../Assets/Fonts/HKGothicRegular.otf);
+  src: url(../Assets/Fonts/HKGothicLight.otf);
+  src: url(../Assets/Fonts/HKGothicSemiBold.otf);
+  src: url(../Assets/Fonts/HKGothicMedium.otf);
+  src: url(../Assets/Fonts/HKGothicBold.otf);
+  src: url(../Assets/Fonts/HKGothicExtraBold.otf);
+  src: url(../Assets/Fonts/HKGothicBlack.otf);
+}
+
+body {
+  margin: 0 50px;
+  font-family: HK Gothic;
+  background: #F7F2C6;
+}
+
+.seperation-typography{
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.seperation-typography > p{
+  margin-bottom: 4px;
+}
+
+.line5{
+  height: 2px;
+  background-color: black;
+  width: 100%;
+}
+
+/*FONTS*/
+.heading-black {
+  font-family: HK Gothic;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8em;
+  line-height: 130px;
+  margin: 10px 0;
+}
+
+.sub-heading-black {
+  font-family: HK Gothic;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5em;
+  line-height: 80px;
+}
+
+.sub-heading-black-2 {
+  font-family: HK Gothic;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2em;
+  line-height: 60px;
+}
+
+.heading-bold {
+  font-family: HK Gothic;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.heading-red-bold {
+  font-family: HK Gothic;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #ff0505;
+  text-transform: uppercase;
+}
+
+.para-regular {
+  font-family: HK Gothic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.small-bold {
+  font-family: HK Gothic;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.link-medium {
+  font-family: HK Gothic;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
